@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <header>  
+        <img src="../images/logo.jpg" alt="Healthy Meal Logo" class="logo"> <!-- Logo section for the restaurant name -->
+        <nav id="navigation">
+                <p><a href="../index.html">Home</a></p>
+                <p><a href="menu.html">Menu</a></li>
+                <p><a href="about.html">About Us</a></p>
+                <p id="selected">Contact</p>
+                <p><a href="events.html">Events</a></p>
+        </nav>
+    </header> 
+    <main>
+        <!-- Contact Page Content -->
+        <h1>Healthy Meal Restaurant</h1>
+        <section id="contact-page">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Reach out with any questions or reservations.</p>
+            <p>Reach out for reservations or inquiries!</p>
+
+            <form action="contact-form-handler.php" method="POST"> <!--Form to order food-->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?..."></iframe> <!--Location our restaurant-->
+            </div>            
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Healthy Meal Restaurant. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a>
+        </div>
+
+    </footer>
+</body>
+</html>
