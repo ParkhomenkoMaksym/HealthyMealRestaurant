@@ -38,7 +38,7 @@ header {
 }
 
 #navigation a {
-    color: limegreen;
+    color: #aaffaa;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
@@ -47,7 +47,7 @@ header {
 
 #navigation a:hover {
     text-decoration: underline;
-    background-color: #f0f0f0; 
+    background-color: #ffbaf5aa; 
 }
 
 main {
@@ -91,7 +91,7 @@ h1 {
 }
 
 #selected {
-    color: #22e5f7;
+    color: #42ecfc;
     display: block;
 }
 
@@ -108,7 +108,9 @@ h1 {
 .feature img {
     width: 10%;
 }
-
+.feature p{
+margin: 2px 0;
+}
 #paragraph {
     text-align: center;
 }
@@ -150,76 +152,22 @@ footer .social-links a:hover {
     text-decoration: underline;
 }
 
-/* Media query for smaller screens (burger menu) */
-/* @media (max-width: 1300px) {
-
-    /* Adjust header for smaller screens */
-    /*header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .logo {
-        width: 60px;
-        margin-left: 0;
-    }
-
-    #navigation {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #navigation a {
-        margin: 5px 0;
-    }
-
-
-    /* Stack features vertically on smaller screens */
-   /* .features {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .feature {
-        width: 80%;
-        margin-bottom: 20px;
-    }
-
-    /* Adjust menu items layout */
-   /* .menu-item {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .menu-item img {
-        margin: 0 0 10px 0;
-        width: 100%;
-        height: auto;
-    }
-} */
-
 @media (max-width: 768px) {
 
-    /* Adjust header for smaller screens */
     header {
-        /* flex-direction: column; */
         align-items: flex-start;
     }
 
     .logo {
-        /* width: 50px; */
         margin-left: 0;
     }
 
     #navigation {
-        /*display: flex;
-        flex-direction: column;*/
         flex-direction: column;
     }
 
     #navigation a {
         margin: 5px 0;
-       /* padding: 14px 20px;*/
     }
 
 
